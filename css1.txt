@@ -1,1 +1,8 @@
-Hello everyone
+<html>
+<head>
+<title>css1</title>
+</head>
+<body>
+Hello this is my first assignment
+</body>
+</html>
