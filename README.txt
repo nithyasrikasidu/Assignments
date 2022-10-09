@@ -1,6 +1,6 @@
 <html>
 <head>
-<title>assignment 1</title>
+<title>1  assignment</title>
 </head>
 <body>
 hello this is my first webpage
