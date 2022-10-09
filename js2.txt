@@ -1,8 +1,8 @@
 <html>
 <head>
-<title>js-assignments 2</title>
+<title>js 2</title>
 </head>
 <body>
-hello this is my four webpage
+ this is my four webpage
 </body>
 </html>
