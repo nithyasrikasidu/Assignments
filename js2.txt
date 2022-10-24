@@ -1,8 +1,0 @@
-<html>
-<head>
-<title>js 2</title>
-</head>
-<body>
- this is my four webpage
-</body>
-</html>
