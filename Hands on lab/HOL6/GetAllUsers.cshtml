@@ -1,0 +1,11 @@
+﻿@using Hands_on_lab6.Models
+@model System.Collections.Generic.IEnumerable<User>
+<table width="50%">
+    @foreach(var user in Model)
+            {
+                <tr>
+                    <td align="center">@user.UserName</td>
+                    <td align="center">@user.PassWord</td>
+                </tr>
+            }
+</table>

@@ -1,0 +1,22 @@
+﻿@model Hands_on_lab6.Models.User
+    @{ 
+        AjaxOptions opt = new AjaxOptions
+        {
+            HttpMethod = "POST",
+            UpdateTargetId = "result"
+        };
+    }
+  <h2>Current Users</h2>
+  <div id="result">
+      @Html.Action("GetAllUsers")
+  </div>
+@using (Ajax.BeginForm("CreateUser", opt))
+            {
+                <p>
+                    User name:@Html.TextBoxFor(user=> user.UserName)
+                </p>
+                <p>
+                    Password:@Html.PasswordFor(user=> user.Password)
+                </p>
+                <input type="submit" value="Create User"/>
+            }
